@@ -13,13 +13,8 @@ export const Navbar = () => {
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          {/* <img
-            src="https://res.cloudinary.com/dcugqfvvg/image/upload/v1713647295/standardboard.1d6f9426_asqzum.png"
-            className="h-8"
-            alt="plinkoo Logo"
-          /> */}
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Plinkoo.100x
+            Plinkoo.in
           </span>
         </Link>
         <Button
@@ -40,24 +35,13 @@ export const Navbar = () => {
         >
           <Button
             className="bg-transparent mx-4 hover:bg-black w-[50%]"
-            onClick={() => navigate("/simulation")}
-          >
-            Simulation
-          </Button>
-          <Button
-            className="bg-transparent mx-4 hover:bg-black w-[50%]"
             onClick={() => navigate("/game")}
           >
             Game
           </Button>
         </div>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <Button
-            className="bg-transparent mx-4 hover:bg-black"
-            onClick={() => navigate("/simulation")}
-          >
-            Simulation
-          </Button>
+          
           <Button
             className="bg-transparent mx-4 hover:bg-black"
             onClick={() => navigate("/game")}

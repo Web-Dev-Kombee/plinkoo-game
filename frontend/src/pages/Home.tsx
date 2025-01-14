@@ -67,7 +67,6 @@ export function Home() {
         <Simulate />
         <Quotes />
       </div>
-      <FoundIssue />
     </div>
   );
 }
