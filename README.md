@@ -1,4 +1,4 @@
-![screenshot_20250502_094143_youtube_720](https://github.com/user-attachments/assets/58b8a37b-d058-4160-bb4a-077c00fd2ceb)Plinkoo App with Clean Architecture & Advanced State Management
+**Plinkoo App with Clean Architecture & Advanced State Management**
 
 A modern, secure, and scalable Plinkoo application built with React, Canvas, and Node.js, following clean architecture principles and optimized for performance.
 
