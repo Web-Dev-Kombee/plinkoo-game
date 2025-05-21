@@ -131,11 +131,20 @@ For major changes, please open an issue first to discuss what you would like to 
 
 
 ## 📜 License
-This project is licensed under the MIT License.
 
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
-Kombee Technologies
+---
+
+## 👨‍💻 Authors
+
+**Kombee Technologies**
+
+- 🌐 [Portfolio](https://github.com/kombee-technologies)
+- 🌍 [Website](https://www.kombee.com/)
+- 💼 [LinkedIn](https://in.linkedin.com/company/kombee-global)
+
+---
 
 ## 📸 Screenshots
 ![screenshot_20250502_094143_youtube_720](https://github.com/user-attachments/assets/86a4996b-6cb7-405b-b8ac-bfed13957d32)
