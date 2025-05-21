@@ -48,22 +48,25 @@ A modern, secure, and scalable Plinkoo application built with **React**, **Canva
 
 ## 📂 Directory Structure
 
+<pre>
+<code>
 plinkoo-game/
+├── backend/ # Node.js backend (Express API)
+│ ├── src/ # Backend source code
+│ ├── package.json # Backend dependencies and scripts
+│ └── tsconfig.json # TypeScript config for backend
 │
-├── backend/                # Node.js backend (Express API)
-│   ├── src/
-│   ├── package.json
-│   └── tsconfig.json
+├── frontend/ # React frontend with Tailwind CSS
+│ ├── public/ # Static assets
+│ ├── src/ # Frontend source code
+│ ├── package.json # Frontend dependencies and scripts
+│ ├── tailwind.config.js # Tailwind CSS configuration
+│ └── tsconfig.json # TypeScript config for frontend
 │
-├── frontend/               # React frontend
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   ├── tailwind.config.js
-│   └── tsconfig.json
-│
-├── README.md
-└── ...
+├── README.md # Project documentation
+└── ... # Other root-level configs (e.g., .gitignore, .env)
+</code>
+</pre>
 
 ---
 
