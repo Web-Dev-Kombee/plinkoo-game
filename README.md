@@ -1,69 +1,142 @@
-**Plinkoo App with Clean Architecture & Advanced State Management**
+# Plinkoo Game 🎰
 
-A modern, secure, and scalable Plinkoo application built with React, Canvas, and Node.js, following clean architecture principles and optimized for performance.
+A modern, secure, and scalable Plinkoo application built with **React**, **Canvas**, and **Node.js**, following clean architecture principles and optimized for performance.
 
-🎯 Key Features
+---
 
-✅ Interactive Plinkoo Board: Engaging visual experience using HTML5 Canvas.
-✅ Dynamic Gameplay Logic: Customizable slot configuration for varied outcomes.
-✅ Secure Data Handling: Secure backend integration for data management.
-✅ Clean Architecture: Modular, testable, and scalable codebase for maintainability.
-✅ Performance Optimized: Efficient rendering using Canvas API with smooth animations.
+## 🚀 Quick Start Checklist
 
-📂 Directory Structure
+- [x] Clone the repository
+- [x] Install dependencies for frontend and backend
+- [x] Configure environment variables (if needed)
+- [x] Run the backend server
+- [x] Run the frontend app
+- [ ] Build for production
+- [ ] Run tests
 
-🛠️ Tech Stack
+---
 
-Frontend: ReactJS (v18.x)
+## 🎯 Key Features
 
-Backend: Node.js (v20.x)
+- ✅ Interactive Plinkoo Board: Engaging visual experience using HTML5 Canvas.
+- ✅ Dynamic Gameplay Logic: Customizable slot configuration for varied outcomes.
+- ✅ Secure Data Handling: Secure backend integration for data management.
+- ✅ Clean Architecture: Modular, testable, and scalable codebase for maintainability.
+- ✅ Performance Optimized: Efficient rendering using Canvas API with smooth animations.
+- ✅ Advanced State Management: Uses React Context API with `useReducer`.
 
-State Management: Context API with useReducer
+---
 
-Canvas Rendering: HTML5 Canvas API
+## 🛠️ Tech Stack
 
-Utilities:
+**Frontend:**  
+- ReactJS (v18.x)  
+- TypeScript  
+- Vite  
+- Tailwind CSS  
+- HTML5 Canvas API  
 
-uuid (Unique IDs)
+**Backend:**  
+- Node.js (v20.x)  
+- Express.js  
 
-moment (Date handling)
+**Utilities:**  
+- uuid (Unique IDs)  
+- moment (Date handling)  
 
-⚙️ Getting Started
+---
 
-Clone the Repository
+## 📂 Directory Structure
 
-Install Dependencies
+plinkoo-game/
+│
+├── backend/                # Node.js backend (Express API)
+│   ├── src/
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── frontend/               # React frontend
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── tsconfig.json
+│
+├── README.md
+└── ...
 
-For the client:
+---
 
-For the server:
 
-Run the App
+## ⚙️ Getting Started
 
-For the client:
+### 1. Clone the Repository
 
-For the server:
+git clone https://github.com/Web-Dev-Kombee/plinkoo-game.git
+cd plinkoo-game
 
-Useful Commands
+### 2. Install Dependencies
 
-Build Frontend: npm run build
+For the frontend:
+cd frontend
+npm install
 
-Run Tests (Client): npm test
+For the backend:
+cd ../backend
+npm install
 
-Run Tests (Server): npm run test
+### 3. Configure Environment Variables
+Create a .env file in the backend/ directory if you need to override defaults (optional):
 
-Lint Code: npm run lint
+# backend/.env
+PORT=3000
 
-Format Code: npm run format
+### 4. Run the App
 
-Environment Configuration
+Start the backend:
+cd backend
+npm run dev
 
-Create a .env file in the server/ directory with the following details:
+Start the frontend (in a new terminal):
+cd frontend
+npm run dev
 
-🚀 Enjoy Your Plinkoo App!
 
+## 🧰 Useful Commands
+Frontend:
+
+- Build: npm run build
+- Run Tests: npm test
+- Lint: npm run lint
+- Format: npm run format
+
+Backend:
+
+- Build: npm run build
+- Start: npm start
+- Dev: npm run dev
+- Run Tests: npm run test (if implemented)
+
+
+## 🤝 Contributing
+We welcome contributions! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature/fix.
+3. Commit changes and open a Pull Request.
+For major changes, please open an issue first to discuss what you would like to change.
+
+
+## 📜 License
+This project is licensed under the MIT License.
+
+
+## 👨‍💻 Author
+Kombee Technologies
+
+## 📸 Screenshots
 ![screenshot_20250502_094143_youtube_720](https://github.com/user-attachments/assets/86a4996b-6cb7-405b-b8ac-bfed13957d32)
 
-
+🚀 Enjoy Your Plinkoo App!
 
 
